@@ -1,0 +1,145 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #F2F2F2;
+}
+
+header {
+    background-color: #34A85A;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #F7DC6F;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+header nav a:hover {
+    color: #8B9467;
+}
+
+section {
+    padding: 20px;
+    background-color: #F2F2F2;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #34A85A;
+    color: #F7DC6F;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #8B9467;
+}
+
+#home {
+    background-image: url('dna-helix.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F7DC6F;
+}
+
+#about {
+    background-image: url('lab.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#research {
+    background-image: url('microscope.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#resources {
+    background-image: url('books.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#interactive-tools {
+    background-image: url('computer.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#community {
+    background-image: url('people.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#collaborate {
+    background-image: url('partners.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#news-and-events {
+    background-image: url('news.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#blog {
+    background-image: url('blog.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#faq {
+    background-image: url('faq.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    background-color: #34A85A;
+    padding: 10px;
+    text-align: center;
+    color: #F7DC6F;
+}
